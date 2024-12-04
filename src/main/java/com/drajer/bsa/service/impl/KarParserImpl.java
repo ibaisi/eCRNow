@@ -146,8 +146,6 @@ public class KarParserImpl implements KarParser {
 
   @Autowired KnowledgeArtifactRepositorySystem knowledgeArtifactRepositorySystem;
 
-  // TODO: instantiate meassureService, executionService and libraryEvaluationService in class
-  // constructor
   @Autowired R4MeasureService measureService;
 
   @Autowired R4CqlExecutionService executionService;
